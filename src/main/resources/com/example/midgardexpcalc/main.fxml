@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.midgardexpcalc.MainController">
+   <children>
+      <ComboBox fx:id="klasse" layoutX="77.0" layoutY="27.0" prefHeight="25.0" prefWidth="170.0" />
+      <TextField fx:id="gold" layoutX="456.0" layoutY="27.0" text="0" />
+      <AnchorPane layoutX="-2.0" layoutY="84.0" prefHeight="274.0" prefWidth="458.0">
+         <children>
+            <ListView fx:id="fertigkeiten" layoutX="21.0" layoutY="17.0" prefHeight="183.0" prefWidth="283.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="40.0" />
+            <Label layoutX="41.0" layoutY="14.0" text="Fertigkeiten">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="334.0" layoutY="14.0" text="Kosten">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Pane layoutX="233.0" layoutY="8.0" prefHeight="33.0" prefWidth="30.0">
+               <children>
+                  <Label layoutY="-2.0" text="alter">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="-1.0" layoutY="13.0" text="Wert">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="276.0" layoutY="8.0" prefHeight="33.0" prefWidth="30.0">
+               <children>
+                  <Label layoutY="-2.0" text="neuer">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="2.0" layoutY="13.0" text="Wert">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+
+      <AnchorPane layoutX="440.0" layoutY="84.0" prefHeight="274.0" prefWidth="361.0">
+         <children>
+            <ListView fx:id="zauber" layoutX="13.0" layoutY="17.0" prefHeight="219.0" prefWidth="338.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="13.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="40.0" />
+            <Label layoutX="37.0" layoutY="16.0" text="Zauber">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="257.0" layoutY="16.0" text="Kosten">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="result" layoutX="456.0" layoutY="374.0" text="0" />
+      <Label layoutX="337.0" layoutY="30.0" text="Gold fürs Lernen">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="332.0" layoutY="377.0" text="Erfahrungskosten">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="30.0" text="Klasse">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

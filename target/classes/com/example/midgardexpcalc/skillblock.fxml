@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="fertigkeitsblock" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.midgardexpcalc.SkillBlockController">
+   <children>
+      <ComboBox fx:id="fertigkeitsListe" layoutX="6.0" layoutY="8.0" prefHeight="25.0" prefWidth="186.0" />
+      <TextField fx:id="alterWert" layoutX="200.0" layoutY="8.0" prefHeight="25.0" prefWidth="40.0" text="0" />
+      <TextField fx:id="neuerWert" layoutX="249.0" layoutY="8.0" prefHeight="25.0" prefWidth="40.0" />
+      <TextField fx:id="fertigkeitsKosten" layoutX="301.0" layoutY="8.0" prefHeight="25.0" prefWidth="60.0" text="0" />
+      <Button layoutX="369.0" layoutY="8.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="X" fx:id="xButton" />
+   </children>
+</AnchorPane>
